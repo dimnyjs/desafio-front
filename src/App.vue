@@ -40,13 +40,10 @@ export default {
         }
     },
     created(){
-      console.log(process.env)
         this.movies = this.realizeSearch()
     },
     methods: {
         realizeSearch(){
-
-          console.log(process.env)
           
           // Adicionar valor booleano do campo de pesquisa
           this.hasSearch = !!this.searched;
