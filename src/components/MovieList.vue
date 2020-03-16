@@ -40,23 +40,10 @@ export default {
 </script>
 
 <style scoped>
-    
-    input{
-        border: none;
-        outline:none;
-        width: 300px ;
-    }
-
     .container {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         align-content: flex-start;
-    }
-    .searchBox{
-        width: fit-content;
-        padding: 1%;
-        border: solid 1px black;
-        /* box-shadow: 0 0 0 1px black; */
     }
 </style>
